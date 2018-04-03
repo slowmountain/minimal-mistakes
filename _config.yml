@@ -80,7 +80,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/site-logo.gif"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -98,11 +98,11 @@ analytics:
 # Site Author
 author:
   name             : "Dr. Panos Papiotis"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Multidisciplinary researcher, co-organizer of the Sónar Innovation Challenge. Heavily interested in multimodal data science, software prototyping, and interactive technologies."
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Multidisciplinary researcher, musician. Heavily interested in multimodal data science, software prototyping, and interactive technologies."
   location         : "Barcelona, Spain."
   email            : "panos.papiotis@gmail.com"
-  uri              : 
+  uri              : "https://slowmountain.github.io/"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -114,7 +114,7 @@ author:
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : 
+  instagram        : "slow_mountain"
   lastfm           :
   linkedin         : "ppapiotis"
   pinterest        :
@@ -196,7 +196,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: 
 
 
 # Plugins (previously gems:)
@@ -262,7 +262,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      read_time: false
+      comments: false
       share: true
       related: true

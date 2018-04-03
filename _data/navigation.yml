@@ -2,7 +2,10 @@
 main:
   - title: "About"
     url: /about/
+    description: "Personal information & CV"
   - title: "Portfolio"
     url: /portfolio/
+    description: "A portfolio of past & current projects"
   - title: "Music"
     url: /music/
+    description: "Music composed & performed under the 'slow mountain' moniker"
