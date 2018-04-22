@@ -1,27 +1,25 @@
 ---
-title: "Automatic accompaniment"
-excerpt: "An AI-powered accompaniment software using Query-by-humming and Dynamic Time Warping"
-tags: [music, MATLAB]
+title: "Fairyteller"
+excerpt: "An interactive storytelling experience"
+tags: [sound, Music Hack Day]
 header:
-  teaser: /assets/images/projects/qbh/pianoaccompanist.jpg
+  teaser: /assets/images/projects/MHD/mhd_2014_poster_small.jpg
+  image: /assets/images/projects/MHD/mhd_2014_poster_small.jpg
 sidebar:
   - title: "Year"
-    text: "2010"
+    text: "2014"
   - title: "Type"
-    text: "Master Thesis"
-  - title: "Link"
-    text: "[Fulltext version of paper](https://zenodo.org/record/849703)"
-gallery:
-  - url: /assets/images/projects/qbh/FinderGUI.png
-    image_path: /assets/images/projects/qbh/FinderGUI.png
-    title: "Screenshot of the user interface"
-  - url: /assets/images/projects/qbh/overview.png
-    image_path: /assets/images/projects/qbh/overview.png
-    title: "An overview of the lyrics-matching system"
+    text: "Hack"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+Once upon a time, there were 6 Sonar Knights who decided to build a hack about supporting story telling, with sound...
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+Fairyteller was developed within 24 hours for [Music Hack Day Barcelona 2014](http://new.musichackday.org/2014/barcelona/). The software analyses different characteristics from a narrator's voice speaking through a microphone input, and then uses them to automagically generate a suitable real-time musical background and soundscape. 
 
-{% include gallery %}
+The narrator's vocal characteristics (pitch, loudness) are used to control a real-time algorithmic composition patch made in Pure Data, while a real-time speech-to-text algorithm tracks the narrator's location inside the fairytale text, downloading and reproducing sounds from [Freesound](http://freesound.org) on the fly. 
+
+Fairyteller was created in collaboration with Jorge García, Álvaro Sarasúa, Imanol Gómez, Andrés Bucci and Mathieu Bosi, and won the [GiantSteps](https://www.upf.edu/web/mtg/giant-steps) prize.
+
+{% include video id="iaZ2rLl71s4" provider="youtube" %}
+
+More info can be found on [hackerleague](https://www.hackerleague.org/hackathons/music-hack-day-barcelona-2014/hacks/fairy-teller).

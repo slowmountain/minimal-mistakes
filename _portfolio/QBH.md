@@ -1,7 +1,7 @@
 ---
 title: "Automatic accompaniment"
 excerpt: "An AI-powered accompaniment software using Query-by-humming and Dynamic Time Warping"
-tags: [music, MATLAB]
+tags: [music, MATLAB, Max/MSP]
 header:
   teaser: /assets/images/projects/qbh/pianoaccompanist.jpg
 sidebar:
@@ -20,8 +20,8 @@ gallery:
     title: "An overview of the lyrics-matching system"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+An automatic accompaniment system for the singing voice, which allows the user to begin singing from any point within the piece he/she desires. The system is based on the Dynamic Time Warping (DTW) algorithm, which is used as both a similarity measure as well as an alignment tool between the live performance and the reference. The user’s position within the piece is initially determined with a variation of current Query by humming/singing methods, based on three sets of acoustic features; pitch trajectory, RMS energy envelope and MFCCs. After locating the user, the system adapts the tempo of the accompaniment utilizing a known on-line DTW method. The system is implemented in MATLAB and Java, while audio playback is handled using Max/MSP.
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+This project was carried out as my master's thesis in the [Music Technology Group](https://www.upf.edu/web/mtg) of Universitat Pompeu Fabra, supervised by [Hendrik Purwins](http://www.dtic.upf.edu/~hpurwins/). For more details on the project, check out the [SMC 2010 paper](https://zenodo.org/record/849781) or [the thesis itself](http://www.mtg.upf.edu/node/2173).
 
 {% include gallery %}

@@ -1,27 +1,22 @@
 ---
-title: "Automatic accompaniment"
-excerpt: "An AI-powered accompaniment software using Query-by-humming and Dynamic Time Warping"
-tags: [music, MATLAB]
+title: "Prototyping with IML and online repositories"
+excerpt: "RepoVizz as a tool for prototyping interactive systems"
+tags: [machine learning, multimodal]
 header:
-  teaser: /assets/images/projects/qbh/pianoaccompanist.jpg
+  teaser: /assets/images/projects/rapid-mix/repovizz_IML_screenshot.png
+  image: /assets/images/projects/rapid-mix/repovizz_IML_screenshot.png
 sidebar:
   - title: "Year"
-    text: "2010"
+    text: "2017"
   - title: "Type"
-    text: "Master Thesis"
+    text: "Prototype"
   - title: "Link"
-    text: "[Fulltext version of paper](https://zenodo.org/record/849703)"
-gallery:
-  - url: /assets/images/projects/qbh/FinderGUI.png
-    image_path: /assets/images/projects/qbh/FinderGUI.png
-    title: "Screenshot of the user interface"
-  - url: /assets/images/projects/qbh/overview.png
-    image_path: /assets/images/projects/qbh/overview.png
-    title: "An overview of the lyrics-matching system"
+    text: "[Fulltext version of paper](https://dl.acm.org/citation.cfm?doid=2948910.2948915)"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+Interaction designers often use machine learning tools to generate intuitive mappings between complex inputs and outputs. These tools are usually trained live, which is not always feasible or practical. This prototype aims to facilitate the training and testing of Interactive Machine Learning (IML) models, by providing easy access to datasets stored on an online repository.
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+This prototype combines [RepoVizz](https://repovizz2.upf.edu/), an online repository and visualizer for multimodal data, with the Interactive Machine Learning (IML) software [Wekinator](http://www.wekinator.org/), to demonstrate a technical solution for prototyping multimodal interactions that decouples the data acquisition step from the model training step. This way, different input data set-ups can be easily replicated, shared and experimented upon their capability to control complex output without the need to repeat the technical set-up.
 
-{% include gallery %}
+<a class="embedly-card" data-card-controls="0" href="https://drive.google.com/open?id=0B7_Yy_acP_cnSEtES0hzRkRzQjQ">OnlineRepoMachineLearning.mp4</a>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>

@@ -8,4 +8,4 @@ author_profile: true
 classes: wide
 ---
 
-An assortment of various projects - research works, software, and fun projects done on my free time - that I have completed (or *almost* completed ) throughout the years.
+An assortment of various works - research projects, prototypes, software, and side projects done on my free time - that I have completed (or *almost* completed ) throughout the years.

@@ -1,27 +1,21 @@
 ---
-title: "Automatic accompaniment"
-excerpt: "An AI-powered accompaniment software using Query-by-humming and Dynamic Time Warping"
-tags: [music, MATLAB]
+title: "Score aligner"
+excerpt: "A simple audio-to-midi score alignment program in MATLAB, with a helpful GUI."
+tags: [music, research, MATLAB]
 header:
-  teaser: /assets/images/projects/qbh/pianoaccompanist.jpg
+  teaser: /assets/images/projects/thesis/score_aligner.png
+  image: /assets/images/projects/thesis/score_aligner.png
 sidebar:
   - title: "Year"
-    text: "2010"
+    text: "2014"
   - title: "Type"
-    text: "Master Thesis"
+    text: "PhD side project"
   - title: "Link"
-    text: "[Fulltext version of paper](https://zenodo.org/record/849703)"
-gallery:
-  - url: /assets/images/projects/qbh/FinderGUI.png
-    image_path: /assets/images/projects/qbh/FinderGUI.png
-    title: "Screenshot of the user interface"
-  - url: /assets/images/projects/qbh/overview.png
-    image_path: /assets/images/projects/qbh/overview.png
-    title: "An overview of the lyrics-matching system"
+    text: "[Github repository](https://github.com/slowmountain/scorealigner)"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+Score aligner was created during my PhD thesis in the [Music Technology Group](https://www.upf.edu/web/mtg) of Universitat Pompeu Fabra, at first as a tool to help me deal with the large amount of recorded material that needed to be annotated with note onset and offset times. Eventually it proved useful to other colleagues within the MTG, so I decided to release it as open source software under a permissive license.
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+This software reads an audio file (in .wav and .mp3 format for windows, .wav for OSX) as well as a MIDI score and computes a temporal alignment between the two using my own implementation of [Simon Dixon's On-line Time Warping (OLTW) algorithm](https://code.soundsoftware.ac.uk/projects/match).
 
-{% include gallery %}
+{% include figure image_path="/assets/images/projects/thesis/score_aligner.png" alt="Screenshot of the GUI" caption="A screenshot of Score Aligner in action." %}
