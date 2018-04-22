@@ -252,6 +252,11 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+    relative_path: _portfolio/
 
 # Defaults
 defaults:
@@ -266,3 +271,13 @@ defaults:
       comments: false
       share: true
       related: true
+
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
