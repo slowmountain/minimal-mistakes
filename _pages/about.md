@@ -17,4 +17,5 @@ Following my PhD, I worked as a post-doc researcher and R&D software developer f
 
 ---
 
-Download my [CV](..\assets\other\Panos_Papiotis_CV.pdf)
+* Download my [CV](..\assets\other\Panos_Papiotis_CV.pdf)
+* List of [publications](https://scholar.google.es/citations?hl=en&user=Yo-OzSoAAAAJ)
