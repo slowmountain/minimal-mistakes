@@ -20,7 +20,7 @@ Towards the end of 2017 I bought one of these beauties:
 
 [![Teenage Engineering OP-1](https://www.teenageengineering.com/_img/546a834921665b0200485673_2048.png)](https://www.teenageengineering.com/products/op-1)
 
-Since then I have been making several minitracks that you can check out [here](op1tracks) *(currently under construction - sorry!)*.
+Since then I have been making several minitracks that you can check out [on my freesound.org page.](https://freesound.org/people/slowmountain/)
 
 ## Classical percussion
 Between 2004 and 2009 I have been performing as a classical percussionist in several cities in mainland Greece, either as part of a percussion ensemble or as part of a symphonic orchestra. 
