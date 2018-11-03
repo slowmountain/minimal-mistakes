@@ -7,7 +7,7 @@ header:
 author_profile: false
 ---
 
-I was born in Athens, Greece on 1985. From a young age I was drawn to two things: music and computers.
+I was born in Athens, Greece in 1985. From a young age I was drawn to two things: music and computers.
 
 Growing up I decided to pursue both interests, which led me to studying Computer Science at the Informatics department of the Athens University of Economics and Business, while travelling back and forth between Athens and my hometown Lamia trying to finish my formal music studies as a classical percussionist.
 
